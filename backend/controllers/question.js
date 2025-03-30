@@ -1,7 +1,7 @@
 const bcrypt = require('bcrypt');
 const Question = require('../Models/questions');
 const User = require('../Models/register');
-const { updateLeaderboard } = require("./leaderboard");
+const { updateLeaderboard } = require("../controllers/leaderboard");
 
 const LAST_QUESTION_ID = 15;
 

@@ -17,7 +17,7 @@ const RegisterSchema = new mongoose.Schema({
     unique: true,
     lowercase: true,
     trim: true,
-    // match: [/^\d{2}[a-z]{3}\d{3}@nith\.ac\.in$/]
+    match: [/^\d{2}[a-z]{3}\d{3}@nith\.ac\.in$/]
   },
   phone: {
     type: String,

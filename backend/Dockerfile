@@ -5,7 +5,7 @@ COPY package*.json ./
 RUN npm install
 COPY . .
 EXPOSE 5000
-CMD ["npm", "run", "dev"]  # Fix: Proper JSON array syntax
+CMD ["npm", "run", "dev"]
 
 # Production stage
 FROM node:18-alpine as prod

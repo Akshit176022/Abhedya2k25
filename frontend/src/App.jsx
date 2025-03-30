@@ -29,14 +29,14 @@ function App() {
             <Route path="/signup" element={<SignUp />} />
             <Route path="/signin" element={<SignIn />} />
           </Route>
-          <Route element={<GridWithoutSpotLightAndCustomCursor />}>
+          {/* <Route element={<GridWithoutSpotLightAndCustomCursor />}>
             <Route path="/gamepage" element={<Gameandblob />}  />
-          </Route> 
+          </Route>  */}
 
           <Route path="/super_register" element={<SuperuserCreator />} />
           <Route path="/super_login" element={<SuperuserLogin />} />
 
-        <Route path="/admin" element={<AdminPanel />} />
+        <Route path="/super_admin" element={<AdminPanel />} />
 
         </Routes>
 
