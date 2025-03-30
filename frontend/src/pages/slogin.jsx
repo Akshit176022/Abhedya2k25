@@ -36,7 +36,7 @@ export const SuperuserLogin = () => {
       localStorage.setItem("superuser_token", token);
       localStorage.setItem("isSuperuser", true);
       
-      navigate("/admin");
+      navigate("/super_admin");
 
     } catch (err) {
       const errorMessage = err.response?.data?.error || 
