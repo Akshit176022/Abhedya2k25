@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+@theme {
+    --color-dark-green: #0d2a44;
+    --color-sea-green : #0f7070;
+    --color-linear-green : linearGradient(#0d2a44, #0f7070 )
+}
+
