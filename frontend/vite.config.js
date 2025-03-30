@@ -8,6 +8,7 @@ export default defineConfig({
     host: true, // needed for Docker container
     port: 5173,
     strictPort: true,
+    allowedHosts: ['abhedya.istenith.com'],
     proxy: {
       // Proxy API requests to your backend
       '/endpoint': {
