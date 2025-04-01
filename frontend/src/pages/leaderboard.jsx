@@ -44,6 +44,7 @@ const Leaderboard = () => {
 
   return (
     <div className="bg-black/20 lg:mt-[10vw] mt-[25vw] border-3 border-b-0 border-teal-900 md:w-[80vw] w-[90vw] mx-auto backdrop-blur-3xl rounded-t-[4vw] px-[10vw] overflow-hidden pb-[5vw] md:py-0 md:pb-[2vw] py-[2vw]">
+      <h1 className="text-4xl"> SYSTEM TESTING IS GOING ON. LEADERBOARD WILL BE UPDATED SOON!!! </h1>
       <LinearGradientText
         text={"Leaderboard"}
         size="leaderboard"
