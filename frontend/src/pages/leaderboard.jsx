@@ -42,16 +42,26 @@ const Leaderboard = () => {
     );
   }
 
+
   return (
+    <>
+
+
+    
     <div className="bg-black/20 lg:mt-[10vw] mt-[25vw] border-3 border-b-0 border-teal-900 md:w-[80vw] w-[90vw] mx-auto backdrop-blur-3xl rounded-t-[4vw] px-[10vw] overflow-hidden pb-[5vw] md:py-0 md:pb-[2vw] py-[2vw]">
-      <h1 className="text-4xl"> SYSTEM TESTING IS GOING ON. LEADERBOARD WILL BE UPDATED SOON!!! </h1>
+
       <LinearGradientText
         text={"Leaderboard"}
         size="leaderboard"
         subtitlePreset={false}
       />
+
       
+      <h1 className="text-xl text-white text-center"> SYSTEM TESTING IS GOING ON. LEADERBOARD WILL BE UPDATED SOON!!! </h1>
+   
       <div className="grid lg:grid-cols-3 grid-cols-2 grid-row-10 place-items-center gap-5 mt-5">
+
+   
         <h1 className="text-teal-50 font-[poppins] font-bold lg:text-2xl text-lg mb-[1.5vw]">
           Position
         </h1>
@@ -90,6 +100,7 @@ const Leaderboard = () => {
         )}
       </div>
     </div>
+    </>
   );
 };
 
